@@ -8,7 +8,9 @@ const WebsiteLayout: React.FC = () => {
 	return (
 		<>
 			<WebsiteHeader />
-			<Outlet />
+			<div className="mx-6 min-h-[60vh]">
+				<Outlet />
+			</div>
 			<WebsiteFooter />
 		</>
 	);
